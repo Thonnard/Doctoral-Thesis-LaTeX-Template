@@ -23,3 +23,8 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
    
 ## Using the template
 
+## LaTeX documentation
+
+## Examples
+
+
