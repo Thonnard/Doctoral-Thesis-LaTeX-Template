@@ -15,7 +15,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
    * Go to Options > Configure TeXstudio > Build
    * Click "Advanced"
    * Change Default compiler to: txs:///pdflatex | txs:///makeglossaries | txs:///biber --output-safechars | txs:///pdflatex | txs:///pdflatex
-5. Optional: Add an extra CWL file for autocompletion (to avoid red highlighting of unrecognized commands)
+5. Optional: add an extra CWL file for autocompletion (to avoid red highlighting of unrecognized commands)
    * Download the CWL file here: https://raw.githubusercontent.com/Thonnard/Doctoral-Thesis-LaTeX-Template/master/CWL/mylist.cwl
    * Copy CWL file to  C:\Users\your_username\AppData\Roaming\texstudio\completion\user
    * Go to Options > Configure TeXstudio > Completion 
@@ -26,7 +26,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 ## Features
  * Citations need to be in bibtex format and can be imported from Mendeley, Zotero,...
  * Citations from a Word document can be converted to bibtex with this macro: http://git.macropus.org/citation-finder/.
- * Glossaries (acronyms) - remove numbering by adding the nonumberlist option \usepackage[toc,acronym,nomain,nonumberlist]{glossaries} in the main_book.tex or main_A4.tex file. 
+ * Glossaries (acronyms): remove numbering by adding the nonumberlist option \usepackage[toc,acronym,nomain,nonumberlist]{glossaries} in the main_book.tex or main_A4.tex file. 
 
 ## Warnings
  * The size of graphics and figures can be set dynamically (e.g. \includegraphics[width=\textwidth]{einstein}) instead of static (e.g. \includegraphics[width=4cm]{einstein}) but final results should be double-checked when switching between A4 and book format.
