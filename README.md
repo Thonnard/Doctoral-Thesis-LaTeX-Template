@@ -30,7 +30,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 
 ## Warnings
  * The size of graphics and figures can be set dynamically (e.g. \includegraphics[width=\textwidth]{einstein}) instead of static (e.g. \includegraphics[width=4cm]{einstein}) but final results should be double-checked when switching between A4 and book format.
- * Binding offset is set to 0.5cm for book documents. Check with your publisher for optimal settings!
+ * Binding offset is set to 0.5cm for book documents. Check with your publisher for optimal settings! This can be changed in the preamble of main_book.tex with the option bindingoffset.
  * Binding offset is set to 0cm for A4 documents! This can be changed in the preamble of main_A4.tex with the option bindingoffset.
 
 ## LaTeX documentation
