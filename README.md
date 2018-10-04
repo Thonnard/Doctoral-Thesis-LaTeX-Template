@@ -11,7 +11,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 3. Install Active Perl (required by glossaries package)
    * Download the latest version here: https://www.activestate.com/activeperl/downloads
    * After installation, navigate to your MiKTeX installation folder (e.g. C:\Program Files\MiKTeX 2.9\miktex\bin\x64) and run perltex.exe
-4. Change TeXStudio settings
+4. Change TeXstudio settings
    * Go to Options > Configure TeXstudio > Build
    * Click "Advanced"
    * Change Default compiler to: txs:///pdflatex | txs:///makeglossaries | txs:///biber --output-safechars | txs:///pdflatex | txs:///pdflatex
