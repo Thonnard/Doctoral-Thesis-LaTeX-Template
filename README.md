@@ -24,6 +24,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 ## Using the template
 
 ## Features
+ * Glossaries (acronyms): remove numbering by adding the nonumberlist option (\usepackage[toc,acronym,nomain,nonumberlist]{glossaries} in the main_book.tex or main_A4.tex file. 
 
 ## LaTeX documentation
 
