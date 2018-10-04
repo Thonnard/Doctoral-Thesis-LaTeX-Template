@@ -28,8 +28,8 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 
 ## Warnings
  * Graphs
- * Binding offset is set to 0.5 for book documents. Check with your publisher to optimize this!
- * Binding offset is set to 0 for A4 documents! This can be changed in the preamble of main_A4.tex with the option bindingoffset
+ * Binding offset is set to 0.5cm for book documents. Check with your publisher to optimize this!
+ * Binding offset is set to 0cm for A4 documents! This can be changed in the preamble of main_A4.tex with the option bindingoffset
 
 ## LaTeX documentation
 
