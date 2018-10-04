@@ -25,13 +25,13 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 
 ## Features
  * Citations need to be in bibtex format and can be imported from Mendeley, Zotero,...
- * Citations from a Word document can be converted to bibtex with this macro: http://git.macropus.org/citation-finder/ 
+ * Citations from a Word document can be converted to bibtex with this macro: http://git.macropus.org/citation-finder/.
  * Glossaries (acronyms) - remove numbering by adding the nonumberlist option \usepackage[toc,acronym,nomain,nonumberlist]{glossaries} in the main_book.tex or main_A4.tex file. 
 
 ## Warnings
- * The size of graphics and figures can dynamically (e.g. \includegraphics[width=\textwidth]{einstein} instead of \includegraphics[width=4cm]{einstein}) but final results should be double-checked when switching between A4 and book format
+ * The size of graphics and figures can be set dynamically (e.g. \includegraphics[width=\textwidth]{einstein}) instead of static (e.g. \includegraphics[width=4cm]{einstein}) but final results should be double-checked when switching between A4 and book format.
  * Binding offset is set to 0.5cm for book documents. Check with your publisher for optimal settings!
- * Binding offset is set to 0cm for A4 documents! This can be changed in the preamble of main_A4.tex with the option bindingoffset
+ * Binding offset is set to 0cm for A4 documents! This can be changed in the preamble of main_A4.tex with the option bindingoffset.
 
 ## LaTeX documentation
 
