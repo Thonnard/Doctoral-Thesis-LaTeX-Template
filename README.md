@@ -5,6 +5,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 1. Install MiKTeX (or any other TeX/LaTeX typesetting system)
     * Download the latest version here: https://miktex.org/download
     * Install and check for updates (open MiKTeX console and navigate to Updates)
+    * Go to Settings (in MikTeX console) and select the "Always install missing packages on-the-fly" option
 2. Install TeXstudio (or any other writing environment)
    * Download the latest version here: https://www.texstudio.org/
 3. Install Active Perl (required by glossaries package)
