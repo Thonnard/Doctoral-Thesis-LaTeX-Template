@@ -24,6 +24,8 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 ## Using the template
 
 ## Features
+ * Citations need to be in bibtex format and can be imported from Mendeley, Zotero,...
+ * Citations from a Word document can be converted to bibtex with this macro: http://git.macropus.org/citation-finder/ 
  * Glossaries (acronyms) - remove numbering by adding the nonumberlist option \usepackage[toc,acronym,nomain,nonumberlist]{glossaries} in the main_book.tex or main_A4.tex file. 
 
 ## Warnings
