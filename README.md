@@ -62,4 +62,11 @@ Chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/0
  * https://www.latex-tutorial.com/quick-start/
 
 ## Examples
+### Title page
+<img src=/Output/main_book_Page1.jpg width="300" title="Github Logo">
+### Table of content
 <img src=/Output/main_book_Page15.jpg width="300" title="Github Logo">
+### Chapter styles
+<img src=/Output/main_book_Page19.jpg width="300" title="Github Logo">
+<img src=/Output/main_book_style2jpg_Page19.jpg width="300" title="Github Logo">
+
