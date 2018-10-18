@@ -63,3 +63,5 @@ Chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/0
 
 ## Examples
 ![Page15|605x907|10%](/Output/main_book_Page15.jpg)
+
+<img src="/Output/main_book_Page15.jpg" width="256" height=" title="Page 15">
