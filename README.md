@@ -22,9 +22,18 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
    * Check the mylist.cwl box
    
 ## Using the template
+   * Open "main_book.tex" or "main_A4.tex" in TeXstudio
+   * Adjust variables in the preamble (e.g. bindingoffset; cf. Warnings below) if necessary
+   * Font size can be set by changing \documentclass[a4paper,twoside,11pt]{book} in the preamble
+   * Line spacing (interline) can be set with the \setstretch{} command 
+   * Add/Remove chapters in the mainmatter section (e.g. \include{./TeX_files/chapter33}
+   * Add/Remove bibliography bib files in the bibliography section (e.g. \addbibresource{./Bibliography/chap33.bib}
+
+Additional information is written as comments in the main_book or main_A4 tex file. 
+Examples for using acronyms, references, tables and figures are provided in the template.
 
 ## Changing the chapter style
-Chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/03/fancy-latex-chapter-styles/). Below you can find an straight forward example. Adding following code to the preamble will replace the standard chapter style with the ChapterNumber | LongTitle format. 
+Chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/03/fancy-latex-chapter-styles/). Below you can find a straight forward example. Adding following code to the preamble will replace the standard chapter style with the ChapterNumber | LongTitle format. 
 
 ```
 % change chapter style
@@ -51,7 +60,3 @@ Chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/0
  * https://en.wikibooks.org/wiki/LaTeX
  * https://ctan.org/
  * https://www.latex-tutorial.com/quick-start/
-
-## Examples
-
-
