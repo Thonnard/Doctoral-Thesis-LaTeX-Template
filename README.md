@@ -23,11 +23,13 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
    
 ## Using the template
    * Open "main_book.tex" or "main_A4.tex" in TeXstudio
-   * Adjust variables in the preamble (e.g. bindingoffset; cf. Warnings below) if necessary
-   * Font size can be set by changing \documentclass[a4paper,twoside,11pt]{book} in the preamble
-   * Line spacing (interline) can be set with the \setstretch{} command 
-   * Add/remove chapters in the mainmatter section (e.g. \include{./TeX_files/chapter33}
-   * Add/remove bibliography bib files in the bibliography section (e.g. \addbibresource{./Bibliography/chap33.bib}
+   * Adjust variables in the preamble (e.g. bindingoffset; cf. Warnings below) if necessary.
+   * Font size can be set by changing \documentclass[a4paper,twoside,11pt]{book} in the preamble.
+   * Line spacing (interline) can be set with the \setstretch{} command.
+   * Add/remove chapters in the mainmatter section (e.g. \include{./TeX_files/chapter33}.
+   * Add/remove bibliography bib files in the bibliography section (e.g. \addbibresource{./Bibliography/chap33.bib}.
+   * Add content to the chapter tex files (e.g. chapter01.tex) to write your chapters (cf. examples in the template).
+   * Compile your document by clicking "Build and View" in the "Tools" menu (or press F5).
 
 Additional information is written as comments in the main_book or main_A4 tex file. 
 Examples for using acronyms, references, tables and figures are provided in the template.
@@ -47,7 +49,9 @@ Chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/0
 ## Features
  * Citations need to be in bibtex format and can be imported from Mendeley, Zotero,...
  * Citations from a Word document can be converted to bibtex with this macro: http://git.macropus.org/citation-finder/.
+ * Reference lists are created automatically per chapter.
  * Glossaries (acronyms): remove numbering by adding the nonumberlist option \usepackage[toc,acronym,nomain,nonumberlist]{glossaries} in the main_book.tex or main_A4.tex file. 
+ * Table of content, list of figures and list of tables are created automatically.
 
 ## Warnings
  * The size of graphics and figures can be set dynamically (e.g. \includegraphics[width=\textwidth]{einstein}) instead of static (e.g. \includegraphics[width=4cm]{einstein}) but final results should be double-checked when switching between A4 and book format.
