@@ -23,6 +23,18 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
    
 ## Using the template
 
+## Changing the chapter style
+Chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/03/fancy-latex-chapter-styles/). Below you can find an straight forward example. Adding following code to the preamble will replace the standard chapter style with the ChapterNumber | LongTitle format. 
+
+```
+% change chapter style
+\usepackage[T1]{fontenc}
+\usepackage{titlesec, blindtext, color}
+\definecolor{gray75}{gray}{0.75}
+\newcommand{\hsp}{\hspace{20pt}}
+\titleformat{\chapter}[hang]{\Huge\bfseries}{\thechapter\hsp\textcolor{gray75}{|}\hsp}{0pt}{\Huge\bfseries}
+```
+
 ## Features
  * Citations need to be in bibtex format and can be imported from Mendeley, Zotero,...
  * Citations from a Word document can be converted to bibtex with this macro: http://git.macropus.org/citation-finder/.
