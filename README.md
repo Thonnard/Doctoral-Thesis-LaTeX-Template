@@ -62,6 +62,6 @@ Chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/0
  * https://www.latex-tutorial.com/quick-start/
 
 ## Examples
-![Page15](/Output/main_book_Page15.jpg){:height="50%" width="50%"}
+![Page15](/Output/main_book_Page15.jpg width=300)
 Format: ![Alt Text](url)
 
