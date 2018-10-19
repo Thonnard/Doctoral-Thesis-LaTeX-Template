@@ -36,7 +36,7 @@ Additional information is written as comments in the main_book or main_A4 tex fi
 Examples for using acronyms, references, tables and figures are provided in the template.
 
 ## Changing the chapter style
-Chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/03/fancy-latex-chapter-styles/). Below you can find a straightforward example. Adding following code to the preamble will replace the standard chapter style with the ChapterNumber | LongTitle format. 
+The chapter style can be changed in several ways (e.g. https://texblog.org/2012/07/03/fancy-latex-chapter-styles/). Below you can find a straightforward example. Adding following code to the preamble will replace the standard chapter style with the ChapterNumber | LongTitle format. 
 
 ```
 % change chapter style
