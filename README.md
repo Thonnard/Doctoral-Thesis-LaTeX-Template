@@ -51,7 +51,7 @@ The chapter style can be changed in several ways (e.g. https://texblog.org/2012/
  * Citations need to be in bibtex format and can be imported from Mendeley, Zotero,...
  * Citations from a Word document can be converted to bibtex with this macro: http://git.macropus.org/citation-finder/.
  * Reference lists are created automatically per chapter.
- * Glossaries (acronyms): remove numbering by adding the nonumberlist option \usepackage[toc,acronym,nomain,nonumberlist]{glossaries} in the main_book.tex or main_A4.tex file. 
+ * Glossary (acronyms) is created autmatically: you can remove numbering by adding the nonumberlist option in the main_book.tex or main_A4.tex file. ```\usepackage[toc,acronym,nomain,nonumberlist]{glossaries}```
  * Table of content, list of figures and list of tables are created automatically.
 
 ## Warnings
