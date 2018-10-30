@@ -121,7 +121,7 @@ headheight=14pt
 % frontmatter, contains acknowledgements, summary, samenvatting, list of figures, list of tables and abbreviatons, ...
 % everything in this section will be ignored for numbering in TOC
 \frontmatter
-\pagestyle{empty} % no headers in this section
+\pagestyle{plain} % no headers in this section but numbering in footer
 \include{./TeX_files/Acknowledgements}
 \include{./TeX_files/Summary}
 \include{./TeX_files/Samenvatting}
@@ -130,7 +130,7 @@ headheight=14pt
 \printglossary[type=\acronymtype,title=List of Abbreviations,style=super]  % include list of abbreviations
 \tableofcontents
 \newpage
-\thispagestyle{empty}
+\pagestyle{empty}
 \mbox{}
 
 
