@@ -1,4 +1,4 @@
-# Doctoral Thesis LaTeX Template
+# Minimalistic doctoral Thesis LaTeX Template
 KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX template
 
 ## LaTeX installation (Windows)
