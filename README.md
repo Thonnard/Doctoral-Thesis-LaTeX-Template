@@ -1,7 +1,8 @@
 # Minimalistic doctoral thesis LaTeX template
 KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX template
 
-## LaTeX installation (Windows)
+## LaTeX installation 
+### Windows 10
 1. Install MiKTeX (or any other TeX/LaTeX typesetting system)
     * Download the latest version here: https://miktex.org/download
     * Install and check for updates (open MiKTeX console and navigate to Updates)
@@ -21,6 +22,20 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
    * Go to Options > Configure TeXstudio > Completion 
    * Check the mylist.cwl box
    
+### Linux (Ubuntu/Mint)
+1. Install TeX Live (or any other TeX/LaTeX typesetting system)
+   * ```sudo apt-get install texlive-full```
+2. Install TeXstudio
+   * ```sudo apt-get install texstudio```
+4. Change TeXstudio settings
+   * Go to Options > Configure TeXstudio > Build
+   * Click "Advanced"
+   * Change Default compiler to: txs:///pdflatex | txs:///makeglossaries | txs:///biber --output-safechars | txs:///pdflatex | txs:///pdflatex
+5. Optional: add an extra CWL file for autocompletion (to avoid red highlighting of unrecognized commands)
+   * Download the CWL file here: https://raw.githubusercontent.com/Thonnard/Doctoral-Thesis-LaTeX-Template/master/CWL/mylist.cwl
+   * Copy CWL file ```cp mylist.cwl ~/.config/texstudio/completion/user/```
+   
+
 ## Using the template
    * Open "main_book.tex" or "main_A4.tex" in TeXstudio
    * Adjust variables in the preamble (e.g. bindingoffset; cf. Warnings below) if necessary.
