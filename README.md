@@ -33,7 +33,9 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
    * Change Default compiler to: txs:///pdflatex | txs:///makeglossaries | txs:///biber --output-safechars | txs:///pdflatex | txs:///pdflatex
 5. Optional: add an extra CWL file for autocompletion (to avoid red highlighting of unrecognized commands)
    * Download the CWL file here: https://raw.githubusercontent.com/Thonnard/Doctoral-Thesis-LaTeX-Template/master/CWL/mylist.cwl
-   * Copy CWL file ```cp mylist.cwl ~/.config/texstudio/completion/user/```
+   * Copy CWL file to texstudio config folder ```cp mylist.cwl ~/.config/texstudio/completion/user/```
+   * Go to Options > Configure TeXstudio > Completion 
+   * Check the mylist.cwl box
    
 
 ## Using the template
