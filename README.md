@@ -40,7 +40,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 
 ## Using the template
    * Open "main_book.tex" or "main_A4.tex" in TeXstudio
-   * Adjust variables in the preamble (e.g. bindingoffset; cf. Warnings below) if necessary.
+   * Adjust variables in the preamble (e.g. margins ("left", "right", ...), bindingoffset; cf. Warnings below) if necessary.
    * Font size can be set by changing \documentclass[a4paper,twoside,11pt]{book} in the preamble.
    * Line spacing (interline) can be set with the \setstretch{} command.
    * The title page can be adjusted by changing the "TitlePageBook.tex" or "TitlePageA4.tex" file.
