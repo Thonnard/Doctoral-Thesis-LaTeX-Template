@@ -43,7 +43,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
    * Adjust variables in the preamble (e.g. bindingoffset; cf. Warnings below) if necessary.
    * Font size can be set by changing \documentclass[a4paper,twoside,11pt]{book} in the preamble.
    * Line spacing (interline) can be set with the \setstretch{} command.
-   * The title page can be adjusted by changing the "TitlePage.tex" file.
+   * The title page can be adjusted by changing the "TitlePageBook.tex" or "TitlePageA4.tex" file.
    * Add/remove chapters in the mainmatter section (e.g. \include{./TeX_files/chapter33}.
    * Add/remove bibliography bib files in the bibliography section (e.g. \addbibresource{./Bibliography/chap33.bib}.
    * Add content to the chapter tex files (e.g. chapter01.tex) to write your chapters (cf. examples in the template).
