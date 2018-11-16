@@ -39,7 +39,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
    
 
 ## Using the template
-   * The idea is to write your thesis in the chapter tex files (e.g. chapter01.tex). Depening on whether you want the output in A4 or book format, use "main_A4.tex" or "main_book.tex", respectively. All options (layout, font,...) can be changed in these files. Chapter files should only be used for content.
+   * The idea is to write your thesis in the chapter tex files (e.g. chapter01.tex). Depending on whether you want the output in A4 or book format, use "main_A4.tex" or "main_book.tex", respectively. All options (layout, font,...) can be changed in these files. Chapter files should only be used for content.
    * Open "main_book.tex" or "main_A4.tex" in TeXstudio
    * Adjust variables in the preamble (e.g. margins ("left", "right", ...), bindingoffset; cf. Warnings below) if necessary.
    * Font size can be set by changing \documentclass[a4paper,twoside,11pt]{book} in the preamble.
