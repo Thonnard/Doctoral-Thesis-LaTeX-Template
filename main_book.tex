@@ -29,6 +29,18 @@ headheight=14pt
 \definecolor{vertbar}{HTML}{52bdec}
 \definecolor{title}{HTML}{1d8db0}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Font
+% Standard font is Computer Modern
+% Use following 2 lines to change to Helvetica
+\usepackage{helvet} 
+\renewcommand{\familydefault}{\sfdefault}
+% Use following 2 lines to change to Arial. However, to compile this you need to use lualatex instead of pdflatex. So if you want to use
+% Arial, change your default compiler to: txs:///lualatex | txs:///makeglossaries | txs:///biber --output-safechars | txs:///lualatex | txs:///lualatex
+%\usepackage{fontspec}
+%\setmainfont{Arial}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % adjust layout of lof and lot (separate per chapter, excluding chapters without figures or tables)
 % cf. https://tex.stackexchange.com/questions/52746/include-chapters-in-list-of-figures-with-titletoc
