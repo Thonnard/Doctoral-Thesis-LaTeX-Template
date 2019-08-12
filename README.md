@@ -15,7 +15,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 4. Change TeXstudio settings
    * Go to Options > Configure TeXstudio > Build
    * Click "Advanced"
-   * Change Default compiler to: txs:///pdflatex | txs:///biber --output-safechars | txs:///makeglossaries | txs:///pdflatex | txs:///pdflatex
+   * Change Default compiler to: txs:///pdflatex | txs:///biber --output-safechars | txs:///makeglossaries | txs:///pdflatex | txs:///pdflatex| txs:///makeglossaries  | txs:///pdflatex
 5. Optional: add an extra CWL file for autocompletion (to avoid red highlighting of unrecognized commands)
    * Download the CWL file here: https://raw.githubusercontent.com/Thonnard/Doctoral-Thesis-LaTeX-Template/master/CWL/mylist.cwl
    * Copy CWL file to  C:\Users\your_username\AppData\Roaming\texstudio\completion\user
@@ -30,7 +30,7 @@ KU Leuven Faculty of Psychology and Educational Sciences doctoral thesis LaTeX t
 4. Change TeXstudio settings
    * Go to Options > Configure TeXstudio > Build
    * Click "Advanced"
-   * Change Default compiler to: txs:///pdflatex | txs:///biber --output-safechars | txs:///makeglossaries | txs:///pdflatex | txs:///pdflatex
+   * Change Default compiler to: txs:///pdflatex | txs:///biber --output-safechars | txs:///makeglossaries | txs:///pdflatex | txs:///pdflatex| txs:///makeglossaries  | txs:///pdflatex
 5. Optional: add an extra CWL file for autocompletion (to avoid red highlighting of unrecognized commands)
    * Download the CWL file here: https://raw.githubusercontent.com/Thonnard/Doctoral-Thesis-LaTeX-Template/master/CWL/mylist.cwl
    * Copy CWL file to texstudio config folder ```cp mylist.cwl ~/.config/texstudio/completion/user/```
